@@ -6,9 +6,9 @@
         >
     <ImageView android:layout_gravity="center" android:layout_width="wrap_content"
                android:layout_height="wrap_content" android:layout_marginTop="30dip"
-               android:src="@drawable/icon">
+               android:src="@drawable/a" android:id="@+id/image">
     </ImageView>
-    <Button android:layout_height="wrap_content" android:layout_width="wrap_content"
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Click Me"
             android:id="@+id/button1" android:gravity="center" android:layout_marginTop="30dip">
 
     </Button>
